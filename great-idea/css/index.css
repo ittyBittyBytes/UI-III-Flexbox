@@ -48,19 +48,151 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+html {
+	box-sizing: border-box;
+}
+body {
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: auto;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+header {
+	display: flex;
+	flex-wrap: nowrap;
+  	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+nav {
+	position: fixed;
+	vertical-align: middle;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: gray;
+}
+
+nav a:hover {
+	color: green;
+	background-color: gray;
+}
+
+header img {
+	margin-left: 900px;
+}
+.pic img {
+	margin-top: 20px;
+	margin-left: 60px;
+	width: 1060px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: "bangers";
+	margin-left: 60px;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.p1 {
+	margin-left: 60px;
+	font-size: 16px;
+	margin-bottom:20px;
+	width: 1075px;
+}
+
+h3 {
+	font-family: "bangers";
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.one {
+	border: 1px solid black;
+	width: 1070px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+}
+.box {
+	float: left;
+	border: 1px solid black;
+	width: 40%;
+	height: 200px;
+	background: cornsilk;
+	margin-bottom:20px;
+	margin-left: 60px;
+}
+.box1 {
+	float: right;
+	border: 1px solid black;
+	width: 40%;
+	height: 200px;
+	background: cornsilk;
+	margin-bottom:20px;
+	margin-right: 70px;
+}
+
+.space {
+	margin-bottom:50px;
+}
+
+.two {
+	border: 1px solid black;
+	width: 1070px;
+	margin-bottom: 40px;
+	margin-left: 60px;
+	margin-top: 750px;
+}
+footer {
+	margin-top:30px;
+	margin-left:60px;
+}
+
+footer h2 {
+	margin-left: -2px;
+	margin-bottom: 20px;
+}
+footer p {
+	width: 320px;
+	margin-bottom: 30px;
+}
+
+footer img {
+	float: right;
+	margin-top: -250px;
+	margin-right: 65px;
+}
+
+.cop {
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+ul {
+	margin-left: 10px;
+}
+
+ul li {
+	margin: 20px 0;
+	list-style-type: disc;
+}
+button {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.inner-box {
+	margin-top: 15px;
+	margin-left: 20px;
+}
